@@ -25,7 +25,7 @@ export default function Home() {
             </span>
           </h1>
           <p className='md:text-lg sm:text-sm text-sm lg:text-left text-center '>
-            Tell stories to inspire millions of people
+            Tell stories, inspire people
           </p>
         </motion.div>
       </div>
