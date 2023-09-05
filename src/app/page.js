@@ -30,13 +30,24 @@ export default function Home() {
         </motion.div>
       </div>
       <div className=''>
-        <Image
-          src={Hero}
-          width={350}
-          height={350}
-          alt=''
-          className=''
-        />
+        <motion.div
+          className='ml-8'
+          initial={{ y: 0 }}
+          animate={{ y: [0, -10, 0] }}
+          transition={{
+            duration: 3,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
+        >
+          <Image
+            src={Hero}
+            width={350}
+            height={350}
+            alt=''
+            className=''
+          />
+        </motion.div>
       </div>
     </div>
   );
