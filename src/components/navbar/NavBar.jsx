@@ -103,7 +103,7 @@ const NavBar = () => {
             </Link>
             <Link
               href='/blog'
-              className='text-white hover:text-gray-400 transition duration-300 ease-in-out'
+              className='text-white hover:text-gray-500 transition duration-300 ease-in-out'
             >
               Blog
             </Link>
